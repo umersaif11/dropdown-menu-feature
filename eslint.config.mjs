@@ -27,7 +27,8 @@ export default defineConfig([
       "eslint.config.mjs",
       "webpack.common.js", 
       "webpack.dev.js",   
-      "webpack.prod.js"
+      "webpack.prod.js",
+      "babel.config.js"
     ],
     languageOptions: {
       globals: {
