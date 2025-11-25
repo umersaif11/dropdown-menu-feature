@@ -28,7 +28,9 @@ export default defineConfig([
       "webpack.common.js", 
       "webpack.dev.js",   
       "webpack.prod.js",
-      "babel.config.js"
+      "babel.config.js",
+      "fileTransformer.js",
+      "jest.config.js"
     ],
     languageOptions: {
       globals: {
