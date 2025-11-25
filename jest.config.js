@@ -14,10 +14,7 @@ module.exports = {
     // Handling CSS/LESS: Use identity-obj-proxy (Tutorial requirement)
     '\\.(css|less|scss|sass)$': 'identity-obj-proxy',
 
-    // Handling Assets: Use our custom transformer (Tutorial requirement)
-    '\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$':
-      '<rootDir>/fileTransformer.js',
-
+    
     // Handling Aliases: Map '@/' to 'src/' (Best practice for Webpack projects)
     '^@/(.*)$': '<rootDir>/src/$1',
   },
